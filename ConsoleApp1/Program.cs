@@ -14,7 +14,7 @@ namespace ConsoleApp1
             Console.WriteLine("What is your name ?");
             firstName = Console.ReadLine();
 
-            Console.WriteLine("What is your LastName ?");
+            Console.WriteLine("What is your LastName?");
             lastName = Console.ReadLine();
 
             Console.WriteLine("What is your Course");
