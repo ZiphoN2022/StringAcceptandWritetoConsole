@@ -8,17 +8,19 @@ namespace ConsoleApp1
         {
 
             string firstName = string.Empty;
+            string lastName = string.Empty;
+            string course = string.Empty;
 
-
-
-            
-            Console.WriteLine("What is your name");
-
+            Console.WriteLine("What is your name ?");
             firstName = Console.ReadLine();
 
-       
+            Console.WriteLine("What is your LastName ?");
+            lastName = Console.ReadLine();
 
-            Console.WriteLine("Welcome to this course " + firstName);
+            Console.WriteLine("What is your Course");
+            course = Console.ReadLine();
+
+            Console.WriteLine("Welcome to your course "+course.PadRight(10) +firstName.PadRight(5) +lastName.PadRight(5));
         }
     }
 }
